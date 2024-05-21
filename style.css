@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+body{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+header{
+  color:  rgba(165, 42, 42, 0.773); 
+  font-size: 28px; 
+}
+.add{
+    border: 1px dashed  rgba(165, 42, 42, 0.773);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.add h2{
+    font-size: 30px;
+}
+.fill{
+    margin-top: 15px;
+}
+.fill label{
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgba(165, 42, 42, 0.773);
+}
+.fill #input1{
+    width: 90%;
+    height: 35px;
+    padding-left: 15px;
+    font-size: 18px;
+    border-color:  rgba(165, 42, 42, 0.5);
+}
+.fill #input2,#input3{
+    margin-top: 15px;
+    width: 40%;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 18px;
+    border-color:  rgba(165, 42, 42, 0.5);
+
+
+}
+
+#addexp{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color:  rgba(165, 42, 42, 0.773);
+    color: white;
+    border-radius: 5px;
+}
+#addexp:hover{
+    color:  rgba(165, 42, 42, 0.773);
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* EXPENSE TABLE */
+.expensetable{
+    margin-top: 40px;
+}
+table{
+    width: 100%;
+    
+    font-size: 20px;
+    
+}
+table tr th{
+    background-color: rgba(165, 42, 42, 0.773);
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+table tr td{
+    background-color: rgb(199, 197, 197);
+    color: brown;
+    height: 30px;
+    
+}
+#lasttotal , #lasttotal td{
+    height: 30px;
+    text-align: right;
+    padding-right: 50px;
+}
+#del{
+    width: 40px;
+    background-color: rgba(165, 42, 42, 0.773);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#del:hover{
+    color: rgba(165, 42, 42, 0.773);
+    background-color: white;
+    cursor: pointer;
+}
+
+
+footer{
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+    color: rgba(128, 128, 128, 0.447);
+    font-size: 15px;
+}

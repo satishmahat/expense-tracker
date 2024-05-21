@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENSE TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><h1>EXPENCE TRACKER</h1></header>
+
+    <!-- Submittion -->
+    <div class="add">
+        <h2>ADD NEW ITEMS</h2>
+
+        <div class="fill">
+
+        <label for="">NAME :</label>
+        <input type="text" placeholder="Where was the expense name?" required id="input1">
+        <br>
+
+        <label for="">DATE :</label>
+        <input type="date" id="input2" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+        <label for="">AMOUNT :</label>
+        <input type="number" id="input3" >
+
+        </div>
+        <input type="submit" value="ADD EXPENCE" id="addexp" onclick="addexp()">
+    </div>
+
+
+    <!-- EXPENSES -->
+    <div class="expensetable">
+        <table id="inputs">
+
+            <tr>
+            <th>S.N</th>
+            <th>NAME</th>
+            <th>DATE</th>
+            <th>AMOUNT</th>
+            <th>DEL</th>
+            </tr>
+        </table>
+        
+
+        <table>
+            <tr id="lasttotal">
+                <td colspan="4">TOTAL : </td>
+            </tr>
+        </table>
+        
+    </div>
+    <br><br><br>
+    <script src="script.js"></script>
+
+    <footer>
+        
+        <pre>MADE BY SATISH MAHAT</pre>
+    </footer>
+</body>
+
+</html>
